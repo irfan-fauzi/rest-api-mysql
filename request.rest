@@ -9,8 +9,8 @@ POST  http://localhost:5000/users
 Content-Type: application/json
 
 {
-  "name": "Chris rock",
-  "email": "chrisrock@gamail.com",
+  "name": "Fabrizio romano",
+  "email": "fabrizio@gamail.com",
   "gender": "male"
 }
 

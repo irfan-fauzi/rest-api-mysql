@@ -1,1 +1,29 @@
+### view all
 GET http://localhost:5000/users
+
+### view detail
+GET http://localhost:5000/users/1
+
+### create
+POST  http://localhost:5000/users
+Content-Type: application/json
+
+{
+  "name": "Chris rock",
+  "email": "chrisrock@gamail.com",
+  "gender": "male"
+}
+
+### update
+PATCH   http://localhost:5000/users/1
+Content-Type: application/json
+
+{
+  "name": "irfan fauzi",
+  "email": "irfan@gamail.com",
+  "gender": "male"
+}
+
+
+### delete
+DELETE  http://localhost:5000/users/1

@@ -6,8 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index",
-    "vercel-build": "echo heloo"
+    "dev": "nodemon index"
   },
   "author": "irfan",
   "license": "ISC",

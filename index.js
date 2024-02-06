@@ -12,4 +12,3 @@ app.listen(5000, () => {
   console.log("server up and runing");
 });
 
-export default app

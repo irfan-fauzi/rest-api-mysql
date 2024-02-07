@@ -1,11 +1,11 @@
 ### view all
-GET http://localhost:5000/users
+GET http://localhost:3000/users
 
 ### view detail
-GET http://localhost:5000/users/1
+GET http://localhost:3000/users/1
 
 ### create
-POST  http://localhost:5000/users
+POST  http://localhost:3000/users
 Content-Type: application/json
 
 {
@@ -15,7 +15,7 @@ Content-Type: application/json
 }
 
 ### update
-PATCH   http://localhost:5000/users/1
+PATCH   http://localhost:3000/users/1
 Content-Type: application/json
 
 {
@@ -26,4 +26,4 @@ Content-Type: application/json
 
 
 ### delete
-DELETE  http://localhost:5000/users/1
+DELETE  http://localhost:3000/users/1
